@@ -46,8 +46,6 @@ export default {
     modules: [
         // https://go.nuxtjs.dev/pwa
         '@nuxtjs/pwa',
-        // https://go.nuxtjs.dev/axios
-        '@nuxtjs/axios',
         // https://go.nuxtjs.dev/content
         '@nuxt/content',
         // https://go.nuxtjs.dev/sitemap
@@ -62,11 +60,6 @@ export default {
             theme_color: '#34495e',
             lang: 'id'
         }
-    },
-
-    // Axios module configuration: https://go.nuxtjs.dev/config-axios
-    axios: {
-
     },
 
     // Content module configuration: https://go.nuxtjs.dev/config-content
